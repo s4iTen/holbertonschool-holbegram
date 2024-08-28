@@ -10,35 +10,35 @@ class TextFieldInput extends StatelessWidget {
   const TextFieldInput({
     Key? key,
     required this.controller,
-    this.isPassword = false,
+    required this.isPassword,
     required this.hintText,
     this.suffixIcon,
-    this.keyboardType = TextInputType.text,
+    required this.keyboardType,
   }) : super(key: key);
 
- @override
+  @override
   Widget build(BuildContext context) {
     return TextField(
       keyboardType: keyboardType,
       controller: controller,
       cursorColor: const Color.fromARGB(218, 226, 37, 24),
-      obscureText: isPassword,
-      textInputAction: TextInputAction.next,
       decoration: InputDecoration(
         hintText: hintText,
         border: const OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.transparent),
+          borderSide: BorderSide.none,
         ),
         focusedBorder: const OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.transparent),
+          borderSide: BorderSide.none,
         ),
         enabledBorder: const OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.transparent),
+          borderSide: BorderSide.none,
         ),
         filled: true,
         contentPadding: const EdgeInsets.all(8),
         suffixIcon: suffixIcon,
       ),
+      textInputAction: TextInputAction.next,
+      obscureText: isPassword,
     );
   }
 }
