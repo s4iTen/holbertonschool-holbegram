@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "233758924371",
-    "project_id": "holbegram-f52f1",
-    "storage_bucket": "holbegram-f52f1.appspot.com"
+    "project_number": "98971512378",
+    "project_id": "holbegram-8fe01",
+    "storage_bucket": "holbegram-8fe01.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:233758924371:android:991f1e4b339cf1f76cb0a6",
+        "mobilesdk_app_id": "1:98971512378:android:3bb98bf37920e673c1cf03",
         "android_client_info": {
-          "package_name": "com.example.holbegram"
+          "package_name": "com.Yahya.holbegram"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBXyi5duTFkjmyYivCy4OTGONa1ZIa3F-I"
+          "current_key": "AIzaSyDHXjStSfUQ8lbDpDfMkWpBva35xavylPk"
         }
       ],
       "services": {
